@@ -1,0 +1,8 @@
+/home/ligointern/Desktop/dropwizard-todo-master/src/test/java/fr/blemale/dropwizard/todo/api/external/ExternalTodoTest.java
+/home/ligointern/Desktop/dropwizard-todo-master/src/test/java/fr/blemale/dropwizard/todo/auth/DummyAuthenticatorTest.java
+/home/ligointern/Desktop/dropwizard-todo-master/src/test/java/fr/blemale/dropwizard/todo/api/request/TodoUpdateRequestTest.java
+/home/ligointern/Desktop/dropwizard-todo-master/src/test/java/fr/blemale/dropwizard/todo/api/request/TodoCreationRequestTest.java
+/home/ligointern/Desktop/dropwizard-todo-master/src/test/java/fr/blemale/dropwizard/todo/api/external/ExternalTodoListTest.java
+/home/ligointern/Desktop/dropwizard-todo-master/src/test/java/fr/blemale/dropwizard/todo/jdbi/DummyTodoDAOTest.java
+/home/ligointern/Desktop/dropwizard-todo-master/src/test/java/fr/blemale/dropwizard/todo/resources/TodoResourceTest.java
+/home/ligointern/Desktop/dropwizard-todo-master/src/test/java/fr/blemale/dropwizard/todo/api/external/ExternalTodoLightTest.java

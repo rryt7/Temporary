@@ -1,0 +1,15 @@
+/home/ligointern/Desktop/dropwizard-todo-master/src/main/java/fr/blemale/dropwizard/todo/api/external/ExternalTodoList.java
+/home/ligointern/Desktop/dropwizard-todo-master/src/main/java/fr/blemale/dropwizard/todo/resources/TodoResource.java
+/home/ligointern/Desktop/dropwizard-todo-master/src/main/java/fr/blemale/dropwizard/todo/jdbi/JDBITodoDAO.java
+/home/ligointern/Desktop/dropwizard-todo-master/src/main/java/fr/blemale/dropwizard/todo/api/external/ExternalTodoLight.java
+/home/ligointern/Desktop/dropwizard-todo-master/src/main/java/fr/blemale/dropwizard/todo/core/User.java
+/home/ligointern/Desktop/dropwizard-todo-master/src/main/java/fr/blemale/dropwizard/todo/api/request/TodoUpdateRequest.java
+/home/ligointern/Desktop/dropwizard-todo-master/src/main/java/fr/blemale/dropwizard/todo/api/external/ExternalTodo.java
+/home/ligointern/Desktop/dropwizard-todo-master/src/main/java/fr/blemale/dropwizard/todo/api/request/TodoCreationRequest.java
+/home/ligointern/Desktop/dropwizard-todo-master/src/main/java/fr/blemale/dropwizard/todo/core/Todo.java
+/home/ligointern/Desktop/dropwizard-todo-master/src/main/java/fr/blemale/dropwizard/todo/jdbi/DummyTodoDAO.java
+/home/ligointern/Desktop/dropwizard-todo-master/src/main/java/fr/blemale/dropwizard/todo/TodoService.java
+/home/ligointern/Desktop/dropwizard-todo-master/src/main/java/fr/blemale/dropwizard/todo/jdbi/TodoMapper.java
+/home/ligointern/Desktop/dropwizard-todo-master/src/main/java/fr/blemale/dropwizard/todo/auth/DummyAuthenticator.java
+/home/ligointern/Desktop/dropwizard-todo-master/src/main/java/fr/blemale/dropwizard/todo/jdbi/TodoDAO.java
+/home/ligointern/Desktop/dropwizard-todo-master/src/main/java/fr/blemale/dropwizard/todo/TodoConfiguration.java

@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Implementation-Title: dropwizard-todo
+Implementation-Version: 1.0-SNAPSHOT
+Implementation-Vendor-Id: dropwizard-todo
+Build-Jdk: 1.7.0_55
+Built-By: ligointern
+Created-By: Maven Integration for Eclipse
+
