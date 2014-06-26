@@ -34,12 +34,14 @@ public class TodoResource {
     @Timed
     @GET
     public ExternalTodoList getTodos(@Context UriInfo uriInfo, @Auth User user) {
+    	System.out.println("Inside gettodos");
         return new ExternalTodoList.Mapper().fromTodoList(uriInfo.getBaseUri(), this.todoDAO.getTodos());
     }
 
     @Timed
     @POST
     public ExternalTodoLight createTodo(@Context UriInfo uriInfo, @Auth User user, @Valid TodoCreationRequest todoCreationRequest) {
+    	System.out.println("Inside createtodo");
         Long createdTodoId = this.todoDAO.createTodo(new TodoCreationRequest.Mapper().toTodo(todoCreationRequest));
         return new ExternalTodoLight.Mapper().fromId(uriInfo.getBaseUri(),createdTodoId);
     }
@@ -48,10 +50,14 @@ public class TodoResource {
     @Path("{id}")
     @GET
     public ExternalTodo getTodo(@Context UriInfo uriInfo, @Auth User user, @PathParam("id") LongParam id) {
+    	System.out.println("Oh God");
         Optional<Todo> todo = this.todoDAO.getTodo(id.get());
+        System.out.println("Getting value"+ id.get());
         if (todo.isPresent()) {
+        	System.out.println("todo is present");
             return new ExternalTodo.Mapper().fromTodo(uriInfo.getBaseUri(),todo.get());
         } else {
+        	System.out.println("todo is absent");
             throw new WebApplicationException(Response.Status.NOT_FOUND);
         }
     }
@@ -63,6 +69,7 @@ public class TodoResource {
         Todo updatedTodo = new TodoUpdateRequest.Mapper().toTodo(id.get(), todoUpdateRequest);
         int nbRowUpdated = this.todoDAO.updateTodo(updatedTodo);
         if (nbRowUpdated == 0) {
+        	System.out.println("todo row updated");
             throw new WebApplicationException(Response.Status.NOT_FOUND);
         }
     }

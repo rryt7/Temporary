@@ -34,6 +34,7 @@ public class DummyTodoDAO implements TodoDAO {
 
     @Override
     public ImmutableList<Todo> getTodos() {
+    	System.out.println("Coming to get todos");
         return ImmutableList.copyOf(todoStore.values());
     }
 

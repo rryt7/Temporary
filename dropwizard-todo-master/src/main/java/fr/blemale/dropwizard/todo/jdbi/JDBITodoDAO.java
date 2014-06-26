@@ -29,6 +29,6 @@ public interface JDBITodoDAO extends TodoDAO {
     @Override
     @SingleValueResult(Todo.class)
     
-    @SqlQuery("SELECT name, age FROM todo WHERE age = :age")//@SqlQuery("SELECT id, title, content FROM todo WHERE id = :id")
+    @SqlQuery("SELECT name, age FROM emp WHERE age = :age")//@SqlQuery("SELECT id, title, content FROM todo WHERE id = :id")
     Optional<Todo> getTodo(@Bind("age") long id);
 }

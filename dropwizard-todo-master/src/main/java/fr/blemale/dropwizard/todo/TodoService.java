@@ -1,5 +1,7 @@
 package fr.blemale.dropwizard.todo;
 
+import org.skife.jdbi.v2.DBI;
+
 import com.yammer.dropwizard.Service;
 import com.yammer.dropwizard.auth.basic.BasicAuthProvider;
 import com.yammer.dropwizard.config.Bootstrap;
@@ -7,12 +9,13 @@ import com.yammer.dropwizard.config.Environment;
 import com.yammer.dropwizard.db.DatabaseConfiguration;
 import com.yammer.dropwizard.jdbi.DBIFactory;
 import com.yammer.dropwizard.migrations.MigrationsBundle;
+
 import fr.blemale.dropwizard.todo.auth.DummyAuthenticator;
 import fr.blemale.dropwizard.todo.core.User;
 import fr.blemale.dropwizard.todo.jdbi.JDBITodoDAO;
 import fr.blemale.dropwizard.todo.jdbi.TodoDAO;
+import fr.blemale.dropwizard.todo.resources.Test;
 import fr.blemale.dropwizard.todo.resources.TodoResource;
-import org.skife.jdbi.v2.DBI;
 
 public class TodoService extends Service<TodoConfiguration> {
     public static void main(String[] args) throws Exception {
@@ -41,6 +44,7 @@ public class TodoService extends Service<TodoConfiguration> {
         final DBI jdbi = factory.build(environment, configuration.getDatabaseConfiguration(), "postgresql");
         final TodoDAO todoDAO = jdbi.onDemand(JDBITodoDAO.class);
         environment.addResource(new TodoResource(todoDAO));
+        environment.addResource(new Test());
         
     }
 }
