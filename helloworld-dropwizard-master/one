@@ -1,0 +1,640 @@
+    1  sudo apt-get upgrade
+    2  sudo apt-get install update
+    3  sudo apt-get update
+    4  sudo apt-get upgrade 
+    5  sudo init 6
+    6  xinput set-prop 8 "Device Enabled" 0
+    7  javac
+    8  sudo apt-get install openjdk-7-jdk
+    9  exit
+   10  sudo postgres psql postgres
+   11  sudo -u postgres psql postgres
+   12  exit
+   13  javac
+   14  sudo apt-get install openjdk-7-jdk
+   15  javac
+   16  echo $JAVA_HOME
+   17  clear
+   18  ls
+   19  sudo apt-get install git
+   20  sql
+   21  postgresql
+   22  sudo apt-get install postgresql
+   23  mvn
+   24  sudo apt-get install maven
+   25  java
+   26  javac
+   27  uname -a
+   28  who am i
+   29  xinput set-prop 8 "Device Enabled" 0
+   30  clear
+   31  xeit
+   32  mvn
+   33  clear
+   34  git
+   35  postgresql
+   36  clerar
+   37  clear
+   38  javac
+   39  $JAVA_HOME
+   40  ./bashrc
+   41  /.bashrc
+   42  sudo /.bashrc
+   43  sudo ~/.bashrc
+   44  sudo ~./bashrc
+   45  clear
+   46  exit
+   47  sudo apt-get install jetty
+   48  sudo apt-get install jersey
+   49  sudo apt-get install jackson
+   50  mvn dependency:resolve
+   51  mvn clean compile install
+   52  mvn clean
+   53  mvn compile
+   54  mvn install
+   55  export JAVA_HOME=jdk-install-dir
+   56  export PATH=$JAVA_HOME/bin:$PATH
+   57  sudo apt-get install curl
+   58  mvn dependency:resolve
+   59  setenv JAVA_HOME jdk-install-dir
+   60  echo$java_home
+   61  echo$JAVA_HOME
+   62  echo $JAVA_HOME
+   63  cd /usr
+   64  cd /lib/jvm
+   65  cd lib
+   66  cd javm
+   67  cd jvm
+   68  ls 
+   69  sudo gedit /etc/environment
+   70  cd 
+   71  echo $JAVA_HOME
+   72  mvn clean
+   73  sudo gedit /etc/environment
+   74  mvn eclipse:eclipse -DdownloadSources=true
+   75  cd workspace/test
+   76  cd workspace/Test
+   77  java test
+   78  javac test.java
+   79  cd 
+   80  cd /usr
+   81  cd lib
+   82  's
+   83  ls
+   84  cd bin
+   85  cd jvm
+   86  cd java-ls
+   87  ls
+   88  cd java-1.7.0-openjdk-amd64
+   89  cd bin
+   90  ls
+   91  javac /workspace/Test Test.java
+   92  javac workspace/Test Test.java
+   93  javac workspace/Test Testing.java
+   94  javac -help
+   95  javac -version
+   96  locate java
+   97  javac workspace/Test/src/Testing.java
+   98  cd 
+   99  which javac
+  100  cd /usr/lib/
+  101  javac workspace/Test/src/Testing.java
+  102  cd 
+  103  cd workspace/Test/
+  104  cd src
+  105  javac Testing.java
+  106  java Testing
+  107  maven -version
+  108  cd
+  109  maven -version
+  110  maven -help
+  111  mvn -version
+  112  cd /usr
+  113  cd lib
+  114  cd jvm
+  115  ls
+  116  cd java-1.7.0-openjdk-amd64
+  117  cd jre
+  118  cd bin
+  119  ls
+  120  cd 
+  121  JAVA_HOME=/usr/lib/jvm/java-1.7.0-openjdk-amd64/jre
+  122  mvn -version
+  123  mvn dependency:resolve
+  124  mvn clean
+  125  cd workspace/com.maven
+  126  mvn package
+  127  java -jar target/hello-world-0.0.1-SNAPSHOT.jar server hello.yml
+  128  java -jar target/com.maven-0.0.1-SNAPSHOT.jar server hello.yml
+  129  sql -u postgres psql postgres
+  130  sudo -u postgres psql postgres
+  131  cd 
+  132  postgres help
+  133  postgres
+  134  psql help
+  135  sudo postgres
+  136  sudo -u postgres
+  137  sudo -u postgres -h
+  138  sudo -u postgres psql postgres
+  139  git
+  140  git status
+  141  git log
+  142  git -version
+  143  git version
+  144  postgresql version\
+  145  postgresql version
+  146  postgresql -version
+  147  history 
+  148  history > fri20
+  149  clear
+  150  who am i
+  151  cd workspace/
+  152  ls
+  153  cd 
+  154  cd /Desktop
+  155  ls
+  156  cd Desktop
+  157  cd mic
+  158  l
+  159  ls
+  160  cd dropwizard-snapci-sample-master/
+  161  ls
+  162  cd target
+  163  ls
+  164  cd test-classes/
+  165  ls
+  166  cd 
+  167  cd Desktop
+  168  cd dropwizard-snapci-sample-master/
+  169  mvn package
+  170  java -jar target/microblog-0.0.1-SNAPSHOT.jar db migrate microblog.yml
+  171  export DATABASE_URL=postgres:/jdbc:postgresql://localhost:5432/postgres
+  172  java -jar target/microblog-0.0.1-SNAPSHOT.jar db migrate microblog.yml
+  173  java -jar target/microblog-0.0.1-SNAPSHOT.jar server microblog.yml &>log &
+  174  mvn failsafe:integration-test failsafe:verify
+  175  heroku create
+  176  sudo apt-get install heroku
+  177  wget -qO- https://toolbelt.heroku.com/install-ubuntu.sh | sh
+  178  create heroku
+  179  man
+  180  man heroku
+  181  heroku
+  182  heroku version
+  183  heroku login
+  184  create heroku
+  185  heroku create
+  186  git push heroku master
+  187  git clone git@heroku.com:rajesh-ligo.git -o heroku
+  188  git push heroku master
+  189  ls
+  190  cd rajesh-ligo
+  191  git push heroku master
+  192  cd ..
+  193  cd src
+  194  git push heroku master
+  195  cd ..
+  196  git push heroku master
+  197  cd rajesh-ligo/
+  198  git push heroku master
+  199  git pull
+  200  git push heroku master
+  201  git pull origin master:prooduction
+  202  git pull master:prooduction
+  203  git push heroku master
+  204  cd ..
+  205  git push heroku master
+  206  cd rajesh-ligo/
+  207  git push heroku master
+  208  git commit -m 'initial commit'
+  209  git config --global user.name rryt7
+  210  git commit -m 'initial commit'
+  211  git config --global user.name "rryt7"
+  212  git commit -m 'initial commit'
+  213  git config --global user.email "rajesh@ligosphere.com"
+  214  git commit -m 'initial commit'
+  215  git push heroku master
+  216  cd 
+  217  history > 06-23
+  218  cd workspace/
+  219  ls
+  220  cd 
+  221  cd Desktop/
+  222  ls
+  223  cd dropwizard-todo-master/
+  224  mvn package
+  225  java -jar target/dropwizard-todo-1.0-SNAPSHOT.jar server todo.yaml 
+  226  sudo netstat -lpn |grep :8080
+  227  kill 10501
+  228  sudo netstat -lpn |grep :8081
+  229  143
+  230  exit 143
+  231  xinput set-prop 8 "Device Enabled" 0
+  232  help
+  233  clear
+  234  cd Desktoo
+  235  cd Desktop
+  236  ls
+  237  cd dropwizard-todo-master
+  238  oh yes
+  239  cd 
+  240  help
+  241  cd Desktop
+  242  cd dropwizard-todo-master/
+  243  java -jar target/dropwizard-todo-1.0-SNAPSHOT.jar server todo.yaml 
+  244  cd ..
+  245  cd dropwizard-todo-master/
+  246  java -jar target/dropwizard-todo-1.0-SNAPSHOT.jar server todo.yaml
+  247  jetty
+  248  cd 
+  249  sudo -u postgres psql postgres
+  250  cd Desktop/
+  251  cd dropwizard-todo-master/
+  252  mvn package
+  253  java -jar target/dropwizard-todo-1.0-SNAPSHOT.jar server todo.yaml
+  254  cd 
+  255  sudo -u postgres psql postgres
+  256  cd desktop
+  257  cd Desktop
+  258  cd dropwizard-t
+  259  cd dropwizard-todo-master/
+  260  [Cmv 
+  261  mvn package
+  262  java -jar target/dropwizard-todo-1.0-SNAPSHOT.jar server todo.yaml
+  263  mvn package
+  264  java -jar target/dropwizard-todo-1.0-SNAPSHOT.jar server todo.yaml
+  265  cd 
+  266  cd /Desktop
+  267  cd Desktop
+  268  mkdir tempGit
+  269  cd tempGit
+  270  git init
+  271  git remote add origin https://github.com/rryt7/Temporary
+  272  git pull origin master
+  273  ls
+  274  git status
+  275  git add -A
+  276  git status
+  277  git commit -m "Added Code of Postgres and Api call"
+  278  git push origin master
+  279  git status
+  280  status
+  281  git status
+  282  git add -a
+  283  git add -
+  284  git add -A
+  285  git status
+  286  git commit -m "Updated Readme file"
+  287  git push origin master
+  288  git statu
+  289  git status
+  290  git switch origin development
+  291  git --help
+  292  git help
+  293  git switch
+  294  git checkout branch
+  295  git checkout -b branch
+  296  ls
+  297  git checkout master
+  298  exit
+  299  ls
+  300  cd Desktop/
+  301  cd dropwizard-
+  302  cd dropwizard-todo-master
+  303  java -jar target/dropwizard-todo-1.0-SNAPSHOT.jar server todo.yaml
+  304  mvn package 
+  305  java -jar target/dropwizard-todo-1.0-SNAPSHOT.jar server todo.yaml
+  306  mvn package 
+  307  java -jar target/dropwizard-todo-1.0-SNAPSHOT.jar server todo.yaml
+  308  mvn package 
+  309  java -jar target/dropwizard-todo-1.0-SNAPSHOT.jar server todo.yaml
+  310  mvn package 
+  311  java -jar target/dropwizard-todo-1.0-SNAPSHOT.jar server todo.yaml
+  312  mvn package
+  313  java -jar target/dropwizard-todo-1.0-SNAPSHOT.jar server todo.yaml
+  314  mvn package
+  315  java -jar target/dropwizard-todo-1.0-SNAPSHOT.jar server todo.yaml
+  316  mvn package
+  317  java -jar target/dropwizard-todo-1.0-SNAPSHOT.jar server todo.yaml
+  318  mvn package
+  319  java -jar target/dropwizard-todo-1.0-SNAPSHOT.jar server todo.yaml
+  320  mvn package
+  321  java -jar target/dropwizard-todo-1.0-SNAPSHOT.jar server todo.yaml
+  322  mvn package
+  323  java -jar target/dropwizard-todo-1.0-SNAPSHOT.jar server todo.yaml
+  324  mvn package
+  325  java -jar target/dropwizard-todo-1.0-SNAPSHOT.jar server todo.yaml
+  326  postgres -version
+  327  cd 
+  328  postgres
+  329  sudo -u postgres psql postgres
+  330  postgres version
+  331  sudo postgres version
+  332  postgres
+  333  locate postgres
+  334  cd Desktop/
+  335  cd dropwizard-todo-master/
+  336  cd 
+  337  sudo -u postgres psql postgres
+  338  exit
+  339  cd 
+  340  sudo -u postgres psql postgres
+  341  cd Desktop/tempGit/
+  342  git status
+  343  git add -A
+  344  git status
+  345  git commit -m"changes to get values from table done"
+  346  git push origin master
+  347  git status
+  348  exit
+  349  sudo -u postgres psql postgres
+  350  exit
+  351  cd Desktop/
+  352  cd dropwizard-todo-master/
+  353  java -jar target/dropwizard-todo-1.0-SNAPSHOT.jar server todo.yaml
+  354  cd 
+  355  pgadmin3
+  356  locate pgadmin3
+  357  cd /usr
+  358  locate pgadmin3
+  359  cd 
+  360  locate postgres
+  361  clea
+  362  clear
+  363  help
+  364  cd Desktop
+  365  cd dropwizard-todo-master/
+  366  cd 
+  367  pgadmin3
+  368  sudo apt-get install pgadmin3
+  369  locate pgadmin3
+  370  sudo -u postgres psql postgres
+  371  cd Desktop/dropwizard-todo-master/
+  372  mvn package
+  373  java -jar target/dropwizard-todo-1.0-SNAPSHOT.jar server todo.yaml
+  374  mvn package
+  375  java -jar target/dropwizard-todo-1.0-SNAPSHOT.jar server todo.yaml
+  376  mvn package
+  377  java -jar target/dropwizard-todo-1.0-SNAPSHOT.jar server todo.yaml
+  378  mvn package
+  379  java -jar target/dropwizard-todo-1.0-SNAPSHOT.jar server todo.yaml
+  380  mvn package
+  381  java -jar target/dropwizard-todo-1.0-SNAPSHOT.jar server todo.yaml
+  382  cd 
+  383  cd /home
+  384  ls
+  385  cd ~
+  386  ls
+  387  chmod 400 ligodecker.pem
+  388  ssh -i ligodecker.pem ubuntu@54.88.52.88
+  389  history > 06-26
+  390  ls
+  391  ssh -i ligodecker.pem ubuntu@54.88.52.88
+  392  ls
+  393  \Desktop
+  394  cd Desktop
+  395  cd dropwizard-todo-master/
+  396  cd 
+  397  ssh -i ligodecker.pem ubuntu@54.88.52.88
+  398  ls
+  399  ping
+  400  pgadmin3
+  401  psql --host=ligo-db.chy8oazdyc1c.us-east-1.rds.amazonaws.com --port=5432 --username=ligodbadmin --password --dbname=ligoproddb
+  402  man
+  403  help
+  404  clear
+  405  man
+  406  help
+  407  oauth
+  408  oatuh2
+  409  oauth2
+  410  dirs
+  411  ls
+  412  dirs
+  413  ssh -i ligodecker.pem ubuntu@54.88.52.88
+  414  psql --host=ligo-db.chy8oazdyc1c.us-east-1.rds.amazonaws.com --port=5432 --username=ligodbadmin --password --dbname=ligoproddb
+  415  cd Desktop
+  416  cd dropwizard-
+  417  cd 
+  418  ls
+  419  cd Desktop
+  420  ls
+  421  cd 
+  422  cd /home
+  423  ls
+  424  cd 
+  425  locate ligomcp
+  426  cd /code
+  427  ls
+  428  mkdir ligomcp
+  429  mkdir scratch
+  430  ls
+  431  sudo mkdir scratch
+  432  ls
+  433  cd scratch
+  434  git init
+  435  sudo git init
+  436  git remote add origin https://github.com/LigoSphere/Scratch
+  437  sudo git remote add origin https://github.com/LigoSphere/Scratch
+  438  git pull origin master
+  439  sudo git pull origin master
+  440  ls
+  441  ./ligodb.sh
+  442  ./ligodb.sh dev
+  443  vi ligodb.sh
+  444  sudo vi ligodb.sh
+  445  sudo pico ligodb.sh
+  446  ./ligodb.sh dev
+  447  ./ligodb.sh prod
+  448  git status
+  449  git add -A
+  450  sudo git add -A
+  451  git status
+  452* sudo git commit -m"Changes for Rajesh terminal to execute Dev"
+  453  git push origin master
+  454  sudo git push origin master
+  455  git status
+  456  cd 
+  457  psql --host=ligo-db.chy8oazdyc1c.us-east-1.rds.amazonaws.com --port=5432 --username=ligodbadmin --password --dbname=ligoproddb
+  458  java -jar target/dropwizard-todo-1.0-SNAPSHOT.jar server todo.yaml
+  459  cd /code
+  460  ls
+  461  cd scratch/
+  462  ls
+  463  cd ..
+  464  cd helloworld
+  465  mkdir helloworld
+  466  sudo mkdir helloworld
+  467  cd helloworld
+  468  sudo git init
+  469  git remote add origin https://github.com/LigoSphere/HelloWorld
+  470  sudo git remote add origin https://github.com/LigoSphere/HelloWorld
+  471  sudo git pull origin master
+  472  ls
+  473  cd ..
+  474  cd helloworld
+  475  rm -r .git
+  476  sudo rm -r .git
+  477  java -jar target/dropwizard-todo-1.0-SNAPSHOT.jar server todo.yaml
+  478  cd 
+  479  ls
+  480  cd Desktop
+  481  ls
+  482  cd tempGit
+  483  ls
+  484  cd helloworld
+  485  mkdir helloworld
+  486  cd helloworld
+  487  git init
+  488  git remote add origin
+  489  git status
+  490  git add -A
+  491  git statu
+  492  git status
+  493  git commit -m"Hello World Pgm in DropWizard"
+  494  git push origin master
+  495  git push master
+  496  git status
+  497  cd ..
+  498  cd 
+  499  cd Desktop
+  500  cd helloworld
+  501  cd tempGit/
+  502  mkdir helloword
+  503  rename helloword helloworld
+  504  cd helloworld/
+  505  git init
+  506  git remote add origin https://github.com/rryt7/helloworld-dropwizard
+  507  git status
+  508  git add -A
+  509  git status
+  510  git commit -m"Hello world Drop Wizard program"
+  511  git push origin master
+  512  git status
+  513  cd ..
+  514  cd helloworld/
+  515  ls
+  516  git status
+  517  git pull origin master
+  518  git status
+  519  git init
+  520  git add remote origin https://github.com/rryt7/helloworld-dropwizard
+  521  git init
+  522  git add remote origin https://github.com/rryt7/helloworld-dropwizard
+  523  git remote add origin https://github.com/rryt7/helloworld-dropwizard
+  524  git push origin master
+  525  git status
+  526  git init
+  527  git remote add origin https://github.com/rryt7/helloworld-dropwizard
+  528  git pull origin master
+  529  git status
+  530  cd 
+  531  cd Desktop/tempGit/hello/
+  532  git init
+  533  git remote add origin https://github.com/rryt7/helloworld-dropwizard
+  534  git pull origin master
+  535  git status
+  536  git add -A
+  537  git commit -m"Hello World DropWizard Pgm"
+  538  git push origin master
+  539  git status
+  540  git add -A
+  541  git commit -m"corrected project name"
+  542  git push origin master
+  543  git status
+  544  mvn package
+  545  ls
+  546  ./hello.sh
+  547  .\hello.sh
+  548  java -jar target/dropwizard-todo-1.0-SNAPSHOT.jar server todo.yaml
+  549  git push origin master
+  550  git status
+  551  git add -A
+  552  git commit
+  553  git push origin master
+  554  .\hello.sh
+  555  ./hello.sh
+  556  ls
+  557  java -jar target/dropwizard-todo-1.0-SNAPSHOT.jar server todo.yaml
+  558  java -jar target/com-maveno-1.0-SNAPSHOT.jar server hello.yml
+  559  java -jar target/com-maven-1.0-SNAPSHOT.jar server hello.yml
+  560  java -jar target/com.maven-1.0-SNAPSHOT.jar server hello.yml
+  561  java -jar target/com.maven-0.0.1-SNAPSHOT.jar server hello.yml
+  562  git status
+  563  git add -A
+  564  git commit -m"yml file changes"
+  565  git push origin master
+  566  git status
+  567  mvn
+  568  mvn package
+  569  ./hello.sh
+  570  cd 
+  571  ls
+  572  pico helpful set of commands
+  573  cd Desktop/
+  574  ls
+  575  cd 
+  576  ls
+  577  pico 06-20
+  578  cd History\ Files/
+  579  pico 06-20
+  580  cd 
+  581  ls
+  582  cd Desktop
+  583  ls
+  584  cd tempGit/
+  585  ls
+  586  cd hello
+  587  ls
+  588  ./hello.sh
+  589  cd 
+  590  cd Desktop/
+  591  ls
+  592  cd dropwizard-todo-master/
+  593* java -jar target/dropw-0.0.1-SNAPSHOT.jar server hello.yml
+  594  java -jar target/dropwizard-todo-1.0-SNAPSHOT.jar server todo.yaml
+  595  cd 
+  596  cd Desktop/
+  597  cd tempGit/
+  598  mkdir dwhello
+  599  git init
+  600  cd dwhello
+  601  git init
+  602  git remote add origin https://github.com/LigoSphere/dwhello
+  603  git pull origin master
+  604  git status
+  605  mvn package
+  606  ls
+  607  ./dwhello.sh
+  608  cd 
+  609  cd Desktop/dropwizard-todo-master/
+  610  java -jar target/dropwizard-todo-1.0-SNAPSHOT.jar server todo.yaml
+  611  cd 
+  612  ssh -i ligodecker.pem ubuntu@54.88.52.88
+  613  cd Desktop/dropwizard-todo-master/
+  614  java -jar target/dropwizard-todo-1.0-SNAPSHOT.jar server todo.yaml
+  615  cd ..
+  616  cd Desktop
+  617  cd dropwizard-todo-master/
+  618  ls
+  619  cd ..
+  620  cd Desktop/tempGit/
+  621  git checkout -b branchone
+  622  ls
+  623  cd hello
+  624  git checkout -b branchone
+  625  git status
+  626  git checkout master
+  627  git checkout branchone
+  628  git remote -v
+  629  git push -u orign branchone
+  630  git push -u origin branchone
+  631  ls
+  632  history > historyfile
+  633  ls
+  634  git status
+  635  git checkout master
+  636  git merge branchone
+  637  ls
+  638  git checkout branchone
+  639  history 
+  640  history > one

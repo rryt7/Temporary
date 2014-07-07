@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Implementation-Title: com.maven
+Implementation-Version: 0.0.1-SNAPSHOT
+Implementation-Vendor-Id: com.maven
+Build-Jdk: 1.7.0_55
+Built-By: ligointern
+Created-By: Maven Integration for Eclipse
+
